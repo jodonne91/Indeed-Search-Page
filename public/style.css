@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Arial, sans-serif;
+}
+
+#header {
+	line-height: 1.3;
+	font-family: Arial,sans-serif;
+	font-size: 10pt;
+	padding-top: 10px;
+	height: 25px;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+}
+
+#header a {
+	text-decoration: none;
+	display: inline;
+	margin-left: 2%;
+}
+
+#find-jobs {
+	color: black;
+	font-weight: bold;
+}
+
+#header #email-address {
+	position: fixed;
+	right: 2%;
+	width: 166px;
+}
+
+#header #user-email {
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	display: inline;
+}
+
+#header #down-arrow {
+	color: gray;
+	display: inline;
+	font-size: 6px;
+	transform: scaleX(2)
+}
+
+#left-side-panel {
+	display: inline-block;
+	padding-left: 20px;
+	width: 20%;
+}
+
+#left-side-panel a {
+	display: block;
+	font-family: Arial,sans-serif;
+	font-size: 10pt;
+}
+
+
+#indeed-logo img{
+	width: 170px;
+}
+
+#side-panel-header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 10pt;
+	font-family: Arial,sans-serif;
+}
+
+#search-history {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#search-history p {
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #6f6f6f;
+}
+
+#search-history a {
+	text-decoration: none;
+	color: #00c;
+}
+
+
+
+#search-form .search-box {
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	height: 25px;
+	width: 250px;
+}
+
+#search-form #submit-button {
+	box-sizing: border-box;
+	height: 25px;
+	
+}
+
+.search-selector h5 {
+	margin-top: 12px;
+	margin-bottom: 3px;
+}
+
+.search-selector p{
+	color: gray;
+	font-size: 10pt;
+}
+
+#sort-by p{
+	display: inline;
+}
+
+#center-column {
+	vertical-align: top;
+	display: inline-block;
+	width: 50%;
+}
+
+#right-side-panel {
+	vertical-align: top;
+	display: inline-block;
+	width: 10%;
+}
